@@ -50,5 +50,319 @@ body{
     
     height: 650px;
     display: flex;
+    margin-left: 80px;
     
 }
+
+/* featured-image-container */
+.featured-image-container{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+   
+    margin-top: 100px;
+    box-shadow: 5px 20px 20px 20px wheat;
+}
+
+.featured-title-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.featured-title-container h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.featured-title-container p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.featured-img-container{
+    display: flex;
+    gap: 20px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+
+.first-img{
+    width: 450px;
+    height: 520px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(167, 33, 98, 0.15);
+}
+
+.second-img{
+    width: 450px;
+    height: 520px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(5, 151, 160, 0.15);
+
+}
+.third-img{
+    width: 450px;
+    height: 520px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 300px 300px 0px 0px;
+
+background: rgba(71, 125, 17, 0.15);
+}
+
+/* icons styles */
+.icon-container{
+    width: 1335px;
+height: 320px;
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-radius: 8px;
+
+background-color: rgba(39, 39, 39, 0.05);
+}
+/* .hot-deal-container */
+.hot-deal-container{
+    
+    width: 1480px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 500px;
+    display: flex;
+    
+    background: rgba(229, 84, 115, 0.05);
+
+}
+.deal-container{
+    width: 550px;
+    height: 210;
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+
+
+}
+#off{
+    color: red;
+}
+.deal-container h1{
+    font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.deal-container p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.deal-container button{
+    width: 155px;
+    height: 64px;
+    padding: 20px 43px 20px 43px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: none;
+   
+
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 50px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.flower-container{
+    width: 318px;
+    height: 420px;
+    
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 80px;
+    
+}
+
+/* pic style  */
+.instragram-container{
+    width: 90%;
+    height: 650px;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+}
+ .instragram-container h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+ }   
+ .instragram-container p {
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+ }
+.instragram-text-container{
+    height: 132px;
+    
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    
+.first-instra{
+   
+    width: 100%;
+    height: 100%;
+
+    
+
+    
+}
+.first-instra img{
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.pic-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* latest deal styles */
+.latest-deal-container{
+    width: 90%;
+    height: 449px;
+    margin: 0 auto;
+    
+    background-image: url('./image/Rectangle\ 9.png');
+    
+}
+.latest-deal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.deal-content h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.deal-content{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.deal-content input{
+    width: 400px;
+    height: 34px;
+    border: none;
+    box-shadow: 1px 1px 10px 10px tomato;
+    margin-top: 30px;
+
+}
+.deal-content button{
+    width: 100px;
+height: 37px;
+border-radius: 8px;
+border: none;
+
+background: tomato;
+}
+
+/* footer container  */
+.footer-container{
+    width: 100%;
+height: 396px;
+
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 100px
+}
+.footer-container p{
+    margin-top: 40px;
+    color: rgb(219, 213, 213);
+}
+#flower{
+    color: red;
+}
+
